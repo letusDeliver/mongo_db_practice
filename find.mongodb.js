@@ -1,8 +1,8 @@
 use("admin");
 
 //reading commands
-
 //find(): Will list out all the documents inside the collection
+
 db.users.find();
 db.users.find().pretty();
 
